@@ -1,3 +1,17 @@
-public class SixSevenEnthusiast {
+public class SixSevenEnthusiast extends Person {
+    public SixSevenEnthusiast(String name, String occupation) {
+        super(name, occupation);
+    }
+
+    public void askQuestion()
+    {
+        System.out.println("Do you know what comes after sixty six?");
+    }
+
+    public void answerQuestion()
+    {
+        System.out.println("Six Sevennnn");
+    }
+
     
 }
