@@ -3,11 +3,13 @@ public class SixSevenEnthusiast extends Person {
         super(name, occupation);
     }
 
+    @Override
     public void askQuestion()
     {
         System.out.println("Do you know what comes after sixty six?");
     }
 
+    @Override
     public void answerQuestion()
     {
         System.out.println("Six Sevennnn");

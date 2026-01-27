@@ -21,6 +21,7 @@ public class ResponsiblePerson extends Person {
         currentAnswer = 0;
     }
 
+    @Override
     public void askQuestion(){
         System.out.println(questions[currentQuestion]);
         if  (currentQuestion < questions.length - 1) {
@@ -31,6 +32,7 @@ public class ResponsiblePerson extends Person {
         }
     }
 
+    @Override
     public void answerQuestion(){
         System.out.println(answers[currentAnswer]);
         if  (currentAnswer < answers.length - 1) {
