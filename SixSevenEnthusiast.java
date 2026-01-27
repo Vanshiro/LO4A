@@ -4,6 +4,12 @@ public class SixSevenEnthusiast extends Person {
     }
 
     @Override
+    public void whatIDo(){
+        super.whatIDo();
+        System.out.println("SixSeven");
+    }
+
+    @Override
     public void askQuestion()
     {
         System.out.println("Do you know what comes after sixty six?");
