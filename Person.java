@@ -2,6 +2,7 @@ public abstract class Person {
     String myName;
     String occupation;
 
+
     public void askName(){
         System.out.println("What is your name?");
     }
