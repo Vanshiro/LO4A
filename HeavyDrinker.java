@@ -13,7 +13,6 @@ class HeavyDrinker extends Person {
         super(myName, occupation);
         numShot = additionalShots;
     }
-    
     @Override
     public void askQuestion(){
         randomNum = rand.nextInt((max - min) + 1) + min;
