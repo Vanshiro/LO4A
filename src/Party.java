@@ -1,3 +1,9 @@
+package src;
+
+import src.Person;
+import src.ResponsiblePerson;
+import src.SixSevenEnthusiast;
+
 import java.util.ArrayList;
 /**
  * Party class. 
@@ -9,7 +15,7 @@ import java.util.ArrayList;
  */
 
 public class Party {
-	// Person is an abstract class
+	// src.Person is an abstract class
 	private ArrayList<Person> people = new ArrayList<Person>();
 	
 	// Reminder: constant values are typically public and static (only one copy)
@@ -21,11 +27,11 @@ public class Party {
 	public Party() {
 		// Important, the below classes are my child classes.   You need to replace them 
 		// with your own.   This should be the only code you need to change in party.java
-		people.add(new HeavyDrinker("Plato", "Heavy Thinker"));
-		people.add(new PetOwner("Dr. Doolittle", "Vet", "cat", "Mittens"));
-		people.add(new Introvert("Greta Garbo", "Actress"));
-		people.add(new Extrovert("Scooby Doo", "Private Eye"));
-		people.add(new PetOwner("Frazier", "Psychiatrist", "dog", "Eddie"));
+		people.add(new HeavyDrinker("John", "Bartender", 19));
+        people.add(new SixSevenEnthusiast("Jerry", "I Pad Kid"));
+        people.add(new ResponsiblePerson("Bob", "Lawyer"));
+        people.add(new HeavyDrinker("Greg", "Boat Capitan", 11));
+        people.add(new SixSevenEnthusiast("Joshua", "Gamer"));
 	}
 	
 	/**

@@ -1,3 +1,5 @@
+package src;
+
 public class SixSevenEnthusiast extends Person {
     public SixSevenEnthusiast(String name, String occupation) {
         super(name, occupation);

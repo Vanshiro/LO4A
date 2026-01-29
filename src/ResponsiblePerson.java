@@ -1,3 +1,5 @@
+package src;
+
 public class ResponsiblePerson extends Person {
     private final String[] questions = {
             "What do you do for work?",
